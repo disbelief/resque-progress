@@ -1,3 +1,6 @@
+#require 'lib/resque/plugins/progress/version'
+$:.unshift(File.dirname(__FILE__))
+require 'rubygems'
 require 'lib/resque/plugins/progress/version'
 
 Gem::Specification.new do |s|
